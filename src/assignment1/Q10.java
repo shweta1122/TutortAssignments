@@ -1,3 +1,5 @@
+package assignment1;
+
 import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

@@ -1,18 +1,15 @@
+package assignment1;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q3 {
-
-    public int getCount() {
-        System.out.println("Question 3");
+public class Q2 {
+    public static int returnNumberFromIndex() {
+        System.out.println("Question 2");
         Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
+        int index = sc.nextInt();
         sc.nextLine();
         int[] numbers = Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-        int i = 0;
-        while (numbers[i] <= number) {
-            i++;
-        }
-        return i;
+        return numbers[index];
     }
 }
