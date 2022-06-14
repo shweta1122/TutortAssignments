@@ -10,6 +10,7 @@ public class Main {
         Q8 q8 = new Q8();
         Q9 q9 = new Q9();
         Q10 q10= new Q10();
+        BonusQuestion question=new BonusQuestion();
 
 
         System.out.println("The sum of number is " + q1.sum());
@@ -22,6 +23,8 @@ public class Main {
         System.out.println("The sorted list after removing two max element is" + q8.sortedRemovedList());
         System.out.println("The sum os N number is" + q9.sumOfNNumbers());
         System.out.println("The number is" + q10.checkIfFascinating());
+        System.out.println("The min to balance array is" + question.minNumberToBalance());
+
 
 
 
