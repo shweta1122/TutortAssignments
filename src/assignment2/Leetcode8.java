@@ -3,7 +3,7 @@ package assignment2;
 import java.util.Arrays;
 import java.util.List;
 
-public class leetcode8 {
+public class Leetcode8 {
 
 
     public void check() {

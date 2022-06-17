@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class leetcode6 {
+public class Leetcode6 {
 
     public void transpose() {
 
